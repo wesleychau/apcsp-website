@@ -48,7 +48,74 @@ footer {background: #aaa;color:white;}
 <nav class="nav">
 <ul>
   <h2>Basic Commands</h2>
+  <li><a href="#">Change Directory (cd)</a></li>
+  <li><a href="#">List Files (ls)</a></li>
+  <li><a href="#">Manual (man)</a></li>
+  <li><a href="#">Ping (ping)</a></li>
+  <li><a href="#">Make Directory (mkdir)</a></li>
+ <li><a href="#">Move (move)</a></li>
+ <li><a href="#">Change Mode (chmod)</a></li>
+ <li><a href="#">Remove (rm)</a></li>
+ <li><a href="#">Remove Directory (rmdir)</a></li>
+ <li><a href="#">Concatenate Files (cat)</a></li>
+ <li><a href="#">Nano Editor (nano)</a></li>
+
+ <h2>Other Pages</h2>
+ <a href="index.html">Home Page</a>
+ 
 </u1>
 </nav>
+
+<article class="article">
+  <h1>Change Directory (cd) </h1>
+  <p>This command allows you to change the directory you are looking at. If you type “cd” without any directory name, you are taken to your home directory. Otherwise type <cd directory name> to change to a different directory. </p>
+<p>Example: cd desktop # takes you to desktop directory</p>
+
+<h1>List Files (ls) </h1>
+  <p>This command allows you to list all the files/directories that are located under your current directory. It also is color coded based of whether it is a file, directory, or link. </p>
+<p>Example: ls # lists everything under your current directory</p>
+
+<h1>Manual (man) </h1>
+  <p>This command allows you to get all the information about a certain command. </p>
+<p>Example: man ping # lists all the options associated with the ping command</p>
+
+<h1>Ping (ping) </h1>
+  <p>This command allows you to test the connectivity between two nodes. It can return information about the number of packets transmitted and whether the machine is alive. It also has a multitude of options that allow you to ping a specific number of times or only return certain information. </p>
+<p>Example: ping rpi14 # returns the time it takes for packets to transmit between the two nodes and if rpi14 is alive</p>
+
+<h1>Make Directory (mkdir) </h1>
+  <p>This command allows you to create a new directory under your current directory and then later add files, subdirectories, or links into the new directory you have created.</p>
+<p>Example: mkdir website # creates a new directory named “website” under your current directory</p>
+
+<h1>Move File (mv) </h1>
+  <p>This command allows you to move a file from a current directory to a new directory. It also has many options including backing up the file or only moving it after an update.</p>
+<p>Example: mv index.html website # moves “index.html” file to “website” directory</p>
+
+<h1>Change Mode (chmod) </h1>
+  <p>This command allows you to change the file mode bits of each given file according to mode. Often used to make a file executable or change preferences.</p>
+<p>Example: chmod -x index.html # makes the “index.html” file executable</p>
+
+<h1>Remove (rm) </h1>
+  <p>This command allows you to remove files, directories, and links from file systems. </p>
+<p>Example: rm index.html # removes the “index.html” file from the file system</p>
+
+<h1>Remove Directory (rmdir) </h1>
+  <p>This command allows you to remove a directory that is empty. It will not remove a directory that contains files. </p>
+<p>Example: rmdir website # removes the empty directory “website”</p>
+
+<h1>Concatenate Files (cat) </h1>
+  <p>This command allows you to view the contents of a file. It also has other uses such as the creation of single or multiple files or redirecting files which is based off the different options associated with this command</p>
+<p>Example: cat index.html website # displays the contents of the “index.html” files </p>
+
+<h1>Nano Editor (nano) </h1>
+  <p>This command allows you to create a new file or edit a file that is already in existence. It opens the GNU nano editor which is a popular line text editor. This also allows you to save a file in multiple locations, the options which are given to you after you ctrl^x to exit.</p>
+<p>Example: nano index.html # creates a file named “index.html” and allows you to edit that file</p>
+  
+</article>
+
+</div>
+
+</body>
+
 <html>
 
